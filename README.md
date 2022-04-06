@@ -1,0 +1,14 @@
+# RelatedItemLinker
+Altera o campo "Itens Relacionados" de um item em uma lista de tarefas do Sharepoint Online.
+
+## Sintaxe:
+	relateditemlinker -url <site> -list <guid> -item <int> -tasklist <guid> -taskitem <int>
+
+## Onde:
+	-url <site> - URL do site onde os itens estao localizados
+	-list <guid> - Identificador no formato GUID da lista de origem do item a ser referenciado
+	-item <int> - Identificador inteiro do item a ser referenciado
+	-tasklist <guid> - Identificador no formato GUID da lista de tarefas
+	-taskitem <int> - Identificador inteiro da tarefa onde o item será referenciado
+
+tags: Sharepoint Online, Office 36
